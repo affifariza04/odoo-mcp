@@ -90,6 +90,12 @@ Create a draft quotation for Hotel Arunika (total 7,940,000)?
 
 Remote/HTTP clients: `odoo-mcp --http` serves Streamable HTTP.
 
+## Agent skill
+
+`skills/odoo-erp-assistant/SKILL.md` is a ready-to-install agent skill that tells Claude Code, Cursor and other agents
+which odoo-mcp tool to use, in what order, and the safety rules (read before write, confirm every write, respect
+guardrail errors), plus month-end, collections and quote-from-chat workflows.
+
 ## Architecture
 
 ```mermaid
